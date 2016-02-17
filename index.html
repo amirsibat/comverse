@@ -8,7 +8,7 @@
 
 	<title>Comverse</title>
 
-	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css" >
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
 </head>
 <body>
@@ -16,87 +16,89 @@
 	 <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
+
+
 			<!-- #################################- COMVERSE HEADER -################################# -->
 
 
 	<header class="c-header">
-	
-	  <div class="nav-container">
-	   <div class="logo-container"> <a href="index.html" title="Comverse"><img src="img/comverse-logo.png" alt="logo"></a>
-	   </div>
-
-	  <!-- Mobile Version Nav Button -->
-					<div class="mobile-navigation">
-						<label class="mobile-nav" for="nav-mobile-btn">
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</label>
-						<input type="checkbox" id="nav-mobile-btn">
-
-						<ul class="main-nav-mobile">
-							<li>
-								<input type="checkbox" class="mobile-sub-nav" id="mobile-sub-your-needs">
-								<label for="mobile-sub-your-needs">Your Needs</label>
-								
-							</li>
-							<li>
-								<input type="checkbox" class="mobile-sub-nav" id="mobile-sub-our-portfolio">
-								<label for="mobile-sub-our-portfolio">Our Portfolio</label>
-							
-							</li>
-							<li>
-								<input type="checkbox" class="mobile-sub-nav" id="mobile-sub-news-and-media">
-								<label for="mobile-sub-news-and-media">News &amp; Media</label>
-								
-							</li>
-							<li>
-								<input type="checkbox" class="mobile-sub-nav" id="mobile-sub-about-comverse">
-								<label for="mobile-sub-about-comverse">About Comverse</label>
-							</li>
-						</ul>
-					</div>
-
-		<nav class="navbar">
-		 <ul class="nav">
-			<li><a href="#">YOUR NEEDS<img class="divider"src="img/divider.png" alt="" /></a></li>
-  			<li><a href="#">OUR PORTFOLIO<img class="divider"src="img/divider.png" alt="" /></a></li>
-  			<li><a href="#">NEWS &amp; MEDIA<img class="divider"src="img/divider.png" alt="" /></a></li>
-  			<li><a href="#">ABOUT COMVERSE</a></li>
-  		 </ul>
+    
+      <div class="nav-container">
+       <div class="logo-container"><a href="index.html" title="Comverse"><img src="img/comverse-logo.png" alt="logo" class="logo-desktop"></a></div>
+       <div class="mobile-logo"><a href="index.html" title="Comverse"><img src="img/comverse-logo-medium.png" alt="logo"></a></div>
 
 
-				
+      <!-- Mobile Version Nav Button -->
+                    <div class="mobile-navigation">
+                        <label class="mobile-nav" for="nav-mobile-btn">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </label>
+                        <input type="checkbox" id="nav-mobile-btn">
 
-		</nav>
+                        <ul class="main-nav-mobile">
+                            <li>
+                                <input type="checkbox" class="mobile-sub-nav" id="mobile-sub-your-needs">
+                                <label for="mobile-sub-your-needs">Your Needs</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" class="mobile-sub-nav" id="mobile-sub-our-portfolio">
+                                <label for="mobile-sub-our-portfolio">Our Portfolio</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" class="mobile-sub-nav" id="mobile-sub-news-and-media">
+                                <label for="mobile-sub-news-and-media">News &amp; Media</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" class="mobile-sub-nav" id="mobile-sub-about-comverse">
+                                <label for="mobile-sub-about-comverse">About Comverse</label>
+                            </li>
+                        </ul>
+                    </div>
 
-		 <div class="nav-side-links">
-				
-					
-						<select class="no-border-select">
-							<option value="English">EN</option>
-							<option value="Arabic">AR</option>
-							<option value="Hebrew">HE</option>
-						</select>
-					
-                        <img class="divider"src="img/divider.png" alt="" />
-					
-						<a href="#">Customer login</a>	
-						
-				
-			</div>
-		
+        <nav class="navbar">
+         <ul class="nav">
+            <li><a href="#">YOUR NEEDS<img class="divider"src="img/divider.png" alt="" /></a></li>
+            <li><a href="#">OUR PORTFOLIO<img class="divider"src="img/divider.png" alt="" /></a></li>
+            <li><a href="#">NEWS &amp; MEDIA<img class="divider"src="img/divider.png" alt="" /></a></li>
+            <li><a href="#">ABOUT COMVERSE</a></li>
+         </ul>
+
+
+                
+
+        </nav>
+
+         <div class="nav-side-links">
+                
+                    
+                        <select class="no-border-select">
+                            <option value="English">EN</option>
+                            <option value="Arabic">AR</option>
+                            <option value="Hebrew">HE</option>
+                        </select>
+                    
+                        <img class="divider" src="img/divider.png" alt="" />
+                    
+                        <a href="#">Customer login</a>  
+            </div>
+        
+<!-- Mobile Version Search  -->
+        <label class="mobile-search" for="mobile-search"><img src="css/img/searchBtnMobile.png" alt="search"></label>
+                <input type="checkbox" class="mobile-search">
+
 
 
             <form class="search-field" method="GET" action="http://www.google.com/search">
-    			<input type="text" name="q" />
+                <input type="text" name="q" />
                 <img class="divider" src="img/search_line_devider.png" alt="" />
-    			<button type="submit"><img class="srch_img" src="img/searchBtn.png" alt="Search" /></button>
-			</form>
-			
-		</div>
-	</header>
+                <button type="submit"><img class="srch_img" src="img/searchBtn.png" alt="Search" /></button>
+            </form>
+            
+        </div>
+    </header>
 
 				<!-- #################################- COMVERSE BANNER SECTION -################################# -->
 
@@ -104,31 +106,52 @@
 		<div class="section-banner">
         	<section class="section-container">
         		
-				<h1><strong>Free</strong> Your Markets From <br> IT <strong>Complexity</strong></h1>
-        		<h3>Comverse Policy Studio <br> <strong>1st</strong> Ever Marketing-Oriented Policy Tool</h3>
+			<div class="mobilebanner">
         		
-        		<a href="#" class="more-btn">LEARN MORE </a>
+                    <!---   SLIDER  -->
+            <ul class="slider">
+                <li class="first-slide">
+                    <div class="slide-content">
+                        <h1><strong>Free</strong> Your Markets From <br> IT <strong>Complexity</strong></h1>
+                        <h3>Comverse Policy Studio <br> <strong>1st</strong> Ever Marketing-Oriented Policy Tool</h3>
+                        
+                       <a href="#" class="more-btn">LEARN MORE </a>
+                    </div>
+                </li>
+                
+                <li class="second-slide">
+                    <div class="slide-content"></div>
+                </li>
+                <li class="third-slide">
+                    <div class="slide-content"></div>
+                </li>
+                <li class="fourth-slide">
+                    <div class="slide-content"></div>
+                </li>
+            </ul>
+        
 
-        		<ol class="carousel-nav">
+
+                <ol class="carousel-nav">
 					<a href="#">
 						<li class="selected"></li>
 					</a>
 
 					<a href="#">
-						<li></li>
+						<li> 1</li>
 					</a>
 					<a href="#">
-						<li></li>
+						<li> 2</li>
 					</a>
 					<a href="#">
-						<li></li>
+						<li> 3</li>
 					</a>
 					<a href="#">
-						<li></li>
+						<li> 4</li>
 					</a>
-				</ol>
+				</ol></div>
 				<ul class="box-list">
-					<li class="floating-box" id="purple">
+					<li class="floating-box purple">
 						<section>
 							<a href="#">
 								<h2 class="box-title">Comverse is Value-Added Service Global Market Leader.</h2>
@@ -137,7 +160,7 @@
 							<a href="#"><strong>Read more</strong></a>
 						</section>
 					</li>
-					<li class="floating-box" id="green">
+					<li class="floating-box green">
 						<section>
 						<a href="#">
 							<h2 class="box-title">Comvers is Value-Added Service Global Market Leader.</h2>	
@@ -147,7 +170,7 @@
 						</section>
 						
 					</li>
-					<li class="floating-box" id="orange">
+					<li class="floating-box orange">
 						<section>
 							<a href="#">
 							<h2 class="box-title">Comvers is Value-Added Service Global Market Leader.</h2>
@@ -169,49 +192,50 @@
         		<ul class="solutions-list">
         				<li>
         					<a href="#">
-        						<figure>
-        							<div class="icon1"></div>
-        							<figcaption>Data monetization</figcaption>
+        						<figure class="fig">
+        							
+                                    <div class="icon1"><figcaption>Data monetization</figcaption></div>
+                                    
         						</figure>
         					</a>
         				</li>
         				<li>
         					<a href="#">
-        						<figure>
-        							<div class="icon2"></div>
-        							<figcaption>Over-the-top <br>(OTT)</figcaption>
+        						<figure class="fig">
+        							<div class="icon2"><figcaption>Over-the-top <br>(OTT)</figcaption></div>
+        							
         						</figure>
         					</a>
         				</li>
         				<li>
         					<a href="#">
-        						<figure>
-        							<div class="icon3"></div>
-        							<figcaption>Managed services</figcaption>
+        						<figure class="fig">
+        							<div class="icon3"><figcaption>Managed services</figcaption></div>
+        							
         						</figure>
         					</a>
         				</li>
         				<li>
         					<a href="#">
-        						<figure>
-        							<div class="icon4"></div>
-        							<figcaption>Machine to machine <br> (M2M)</figcaption>
+        						<figure class="fig">
+        							<div class="icon4"><figcaption>Machine to machine <br> (M2M)</figcaption></div>
+        							
         						</figure>
         					</a>
         				</li>
         				<li>
         					<a href="#">
-        						<figure>
-        							<div class="icon5"></div>
-        							<figcaption>Cloud computing</figcaption>
+        						<figure class="fig"> 
+        							<div class="icon5"><figcaption>Cloud computing</figcaption></div>
+        							
         						</figure>
         					</a>
         				</li>
         				<li>
         					<a href="#">
-        						<figure>
-        							<div class="icon6"></div>
-        							<figcaption>Managed Services</figcaption>
+        						<figure class="fig">
+        							<div class="icon6"><figcaption>Managed Services</figcaption></div>
+        							
         						</figure>
         					</a>
         				</li>
@@ -234,7 +258,7 @@
                     <a href="#">
                         <section itemscope="" itemtype="http://schema.org/Event">
                             <h2 class="event-header">News</h2>
-                            <article>
+                            <article class="event-article">
                                 <h1 class="event-date"><meta itemprop="doorTime" content="2015-09-04"><span class="day-container">04</span> <span class="month-container">SEP</span></h1>
                                 <p itemprop="description">Comverse regains lead in convergent charging markets regains lead in</p>
                             </article>
@@ -246,7 +270,7 @@
                     <a href="#">
                         <section itemscope="" itemtype="http://schema.org/Event">
                             <h2 class="event-header">Events</h2>
-                            <article>
+                            <article class="event-article">
                                 <h1 class="event-date"><meta itemprop="doorTime" content="2015-09-04"><span class="day-container">04</span> <span class="month-container">SEP</span></h1>
                                 <p itemprop="description">Comverse regains lead in convergent charging markets regains lead in</p>
                             </article>
@@ -258,7 +282,7 @@
                     <a href="#">
                         <section itemscope="" itemtype="http://schema.org/Event">
                             <h2 class="event-header">Press releases</h2>
-                            <article>
+                            <article class="event-article">
                                 <h1 class="event-date"><meta itemprop="doorTime" content="2015-09-04"><span class="day-container">04</span> <span class="month-container">SEP</span></h1>
                                 <p itemprop="description">Comverse regains lead in convergent charging markets regains lead in</p>
                             </article>
@@ -276,68 +300,54 @@
         			<h1>SUCCESS STORIES</h1>
         			<ul class="stories-list">
                 <li>
-                    <blockquote>
-                        <img src="img/CB-JP-face.png" alt="">
-                        <p><img src="img/quote-grey.png" alt="qoute"  data-pin-nopin="true"> We have very good and very warm relations with Comverse. We always achieved...</p>
-                        <div class="person-details" itemscope="" itemtype="http://schema.org/Person">
-                            <p itemprop="name"><a href="#">Sergey Korotych</a></p>
-                            <p itemprop="jobTitle">Deputy CTO, 3 Mob Ukraine</p>
+                    <div class="sweep">
+                    <blockquote class="story">
+                       <div class="slide-in">   
+                            <div class="slide-content">
+                                <img src="img/CB-JP-face.png" alt="">
+                                <p class="qoute"><img src="img/quote-grey.png" alt="qoute"  data-pin-nopin="true"> We have very good and very warm relations with Comverse. We always achieved...</p>
+                                <div class="person-details" itemscope="" itemtype="http://schema.org/Person">
+                                    <p itemprop="name"><a href="#">Sergey Korotych</a></p>
+                                    <p itemprop="jobTitle">Deputy CTO, 3 Mob Ukraine</p>
+                                </div>
+                                <div class="person-logo"><img src="img/3mob_70x50.png" alt="mob logo" data-pin-nopin="true"></div>
+                            </div>
+                         <div class="overlay-content"></div>
                         </div>
-                        <div class="person-logo"><img src="img/3mob_70x50.png" alt="mob logo" data-pin-nopin="true"></div>
+
                     </blockquote>
-<<<<<<< HEAD
-                  		
+                  	</div>	
                   		 <div class="logos">
-                                <div class="company">
+
+                                <div class="company"><img src="img/cycle30.png" alt="" data-pin-nopin="true"></div>
                                		
-                               			<img src="img/cycle30.png" alt="" data-pin-nopin="true">
-                               	</div>
-                               	<div class="company">
-                               			<img src="img/bul.png" alt="" data-pin-nopin="true">
-                               	</div>
-                               	<div class="company">
-                               			<img src="img/gemplus.png" alt="" data-pin-nopin="true">
-                               	</div>
+                               	
+                               	<div class="company"><img src="img/bul.png" alt="" data-pin-nopin="true"></div>
+                               			
+                               	
+                               	<div class="company"><img src="img/gemplus.png" alt="" data-pin-nopin="true"></div>
+                               			
+                               
 
                                	
                          </div>
                 </li>
                 <li>
-                    <div class="logos-middle">
-	 				<div class="company">
-	 					<img src="img/mtc.png" alt="" data-pin-nopin="true">
-	 				</div>
-	 				<div class="company">
-	 					<img src="img/cblwi.png" alt="" data-pin-nopin="true">
-	 				</div>
-	 				<div class="company">
-	 					<img src="img/trilogy.png" alt="" data-pin-nopin="true">
-	 				</div>
-	 			</div>
-=======
-                    <div class="logos">
-                                <div class="company">
-                                	<img src="img/cycle30.png" alt="" data-pin-nopin="true">
-                                </div>
-                                <div class="company">
-                                	<img src="img/bul.png" alt="" data-pin-nopin="true">
-                                </div>
-                                <div class="company">
-                                	<img src="img/gemplus.png" alt="" data-pin-nopin="true">
-                                </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="logos logos-top">
-                       	<div class="company">
-                                <img src="img/mtc.png" alt="" data-pin-nopin="true">
-                                </div>
-                                <div class="company"><img src="img/cblwi.png" alt="" data-pin-nopin="true"></div>
-                                <div class="company"><img src="img/trilogy.png" alt="" data-pin-nopin="true"></div>
-                    	</div>
->>>>>>> 7ed4fa9a69bf3e935bf363b23fb6e198b730e5ef
+                 
+                        <div class="logos-middle">
 
-						<blockquote>
+                            <div class="company"><img src="img/mtc.png" alt="" data-pin-nopin="true"></div>
+                             
+                            <div class="company"><img src="img/cblwi.png" alt="" data-pin-nopin="true"></div>
+	 				      
+                            <div class="company"><img src="img/trilogy.png" alt="" data-pin-nopin="true"></div>
+	 			        </div>
+                        
+
+                    <div class="sweep">
+						<blockquote class="story">
+                            <div class="slide-in">   
+                            <div class="slide-content">
                     		<img src="img/JT-GM-face.png" alt="" data-pin-nopin="true">
                         	<p><img src="img/quote-grey.png" alt="qoute"  data-pin-nopin="true"> Comverse has demonstrated that they are partners, not just suppliers, because...</p>
                         		<div class="person-details" itemscope="" itemtype="http://schema.org/Person">
@@ -345,14 +355,21 @@
                             		<p itemprop="jobTitle">CIO of Multi-links</p>
                         		</div>
                         	<div class="person-logo"><img src="img/3mob_70x50.png" alt="mob logo"></div>
+                    </div>
+                        <div class="overlay-content"></div>
+                        </div>
                     </blockquote>
+                    </div>  
 
                     
                 </li>
-<<<<<<< HEAD
 
                 <li class="stories-list-right">
-	 			<blockquote>
+
+	 			 <div class="sweep">
+                        <blockquote class="story">
+                            <div class="slide-in">   
+                            <div class="slide-content">
 	 			
 	 				<p><img src="img/quote-grey.png" alt="qoute"  data-pin-nopin="true"> Comverse has been able to fully deliver what we want and we have peers...</p>
 
@@ -360,31 +377,16 @@
 	 					<p><a href="">RAVISHANKER</a></p>
 	 					<p>Tata Sky CIO N.</p>
 	 				</div>
-	 			</blockquote>
-
+	 			 </div>
+                        <div class="overlay-content"></div>
+                        </div>
+                    </blockquote>
+                    </div>  
 	 			<div class="logos">
                                 <div class="company right-comp-logo"><img src="img/hp.png" alt="" data-pin-nopin="true"></div>
                                 <div class="company right-comp-logo"><img src="img/atos.png" alt="" data-pin-nopin="true"></div>
                     	</div>		
 	 		</li>
-=======
-                <li>
-                    <blockquote id="no-img">
-                    
-                        <p><img src="img/quote-grey.png" alt="qoute"  data-pin-nopin="true"> Comverse has been able to fully deliver what we want and we have peers...</p>
-                        <div class="person-details" itemscope="" itemtype="http://schema.org/Person">
-                            <p itemprop="name"><a href="#">Ravishanker</a></p>
-                            <p itemprop="jobTitle">Tata Sky CIO N.</p>
-                        </div>
-                        
-                    </blockquote>
-                    <div class="logos">
-                                <div class="company"><img src="img/hp.png" alt="" data-pin-nopin="true"></div>
-                                <div class="company"><img src="img/atos.png" alt=""></div>
-                                
-                            </div>
-                </li>
->>>>>>> 7ed4fa9a69bf3e935bf363b23fb6e198b730e5ef
         </ul>
 
         				<div class="more-stories">
@@ -398,7 +400,10 @@
 
         <!-- #################################- COMVERSE FOOTER -################################# -->
 	<footer>
+
         <div class="footer-block">
+        <a href="#" class="mobTOP"><img  id="back-top" src="img/back_top.png" alt="back to top"></a>
+       
             <div class="footer-links">
                 <div class="footer-links-column">
                     <h3 class="footer-heading">Key Solutions</h3>
@@ -483,22 +488,33 @@
             </div>
 
 
+         
+            
             <ul class="footer-nav-mobile">
-				<a href="#">
-					<li>CONTACT US</li>
-				</a>
-				<a href="#">
-					<li>SUBSCRIBE TO COMVERSE NEWS</li>
-				</a>
-				<a href="#">
-				</a><li><a href="#">
-				VISIT US ON : 
-				</a><a class="soc-icon ico-linkedin" href="#"></a>
+                <a href="#">
+                    <li>CONTACT US</li>
+                </a>
+                <a href="#">
+                    <li>SUBSCRIBE TO COMVERSE NEWS</li>
+                </a>
+                <a href ="#">
+                <li>
+                VISIT US ON : 
+                <a class="soc-icon ico-linkedin" href="#"></a>
                 <a class="soc-icon ico-youtube" href="#"></a>
-                <a class="soc-icon ico-twitter" href="#"></a>	
-				</li>
-				
-			</ul>
+                <a class="soc-icon ico-twitter" href="#"></a>   
+                </li>
+                </a>
+                <li>Change language:
+                        <select class="footerlanguage" name="">
+                            <option value="English">English</option>
+                            <option value="Hebrew">Hebrew</option>
+                            <option value="Arabic">Arabic</option>
+                        </select></li>
+            </ul>
+            
+
+
 
             <div class="footer-box">
                 <div class="press-release">
@@ -518,8 +534,8 @@
 
                 <form class="subscribe">
                     <h4>Subscribe to Comverse</h4>
-                    <input type="email" id="email" placeholder="EMAIL">
-                    <input type="submit" id="subscribe-submit" value="SIGN UP" text="SIGN UP">
+                    <input type="email" class="email" placeholder="EMAIL">
+                    <input type="submit" class="subscribe-submit" value="SIGN UP" text="SIGN UP">
                 </form>
 
                 <div class="social-icons">
@@ -534,7 +550,7 @@
                     <li>Copyright © 2014 Comverse, Inc.</li>
                     <li> &nbsp; | &nbsp;</li>
                     <li>
-                        <a href="#">Privacy Policy</a>
+                        <a href="#">Privacy Policy</a> &nbsp; | &nbsp; <a href="#">SiteMap</a>
                     </li>
                 </ul>
             </div>
