@@ -35,6 +35,7 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
+                            <span class="hidden">mn</span>
                         </label>
                         <input type="checkbox" id="nav-mobile-btn">
 
@@ -73,8 +74,8 @@
 
          <div class="nav-side-links">
                 
-                    
-                        <select class="no-border-select">
+                        
+                        <select class="no-border-select" title="select-languages">
                             <option value="English">EN</option>
                             <option value="Arabic">AR</option>
                             <option value="Hebrew">HE</option>
@@ -87,12 +88,14 @@
         
 <!-- Mobile Version Search  -->
         <label class="mobile-search" for="mobile-search"><img src="css/img/searchBtnMobile.png" alt="search"></label>
-                <input type="checkbox" class="mobile-search">
+                <label for="mob-input"><span class="hidden">m</span></label>
+                <input type="checkbox" class="mobile-search" id="mob-input">
 
 
 
             <form class="search-field" method="GET" action="http://www.google.com/search">
-                <input type="text" name="q" />
+                <label for="q"><span class="hidden">g</span></label>
+                <input type="text" name="q" id="q" />
                 <img class="divider" src="img/search_line_devider.png" alt="" />
                 <button type="submit"><img class="srch_img" src="img/searchBtn.png" alt="Search" /></button>
             </form>
@@ -500,13 +503,13 @@
                 
                 <li>
                 VISIT US ON : 
-                <a class="soc-icon ico-linkedin" href="#"></a>
-                <a class="soc-icon ico-youtube" href="#"></a>
-                <a class="soc-icon ico-twitter" href="#"></a>   
+                <a class="soc-icon ico-linkedin" href="#"><span class="hidden">i</span></a>
+                <a class="soc-icon ico-youtube" href="#"><span class="hidden">i</span></a>
+                <a class="soc-icon ico-twitter" href="#"><span class="hidden">i</span></a>   
                 </li>
                
                 <li>Change language:
-                        <select class="footerlanguage" name="">
+                        <select class="footerlanguage" name="" title="languages">
                           <a class="soc-icon ico-linkedin" href="#"><label for="linkedin" class="hidden">linkedin</label></a>
                     <a class="soc-icon ico-youtube" href="#"><label for="youtube" class="hidden">youtube</label></a>
                     <a class="soc-icon ico-twitter" href="#"><label for="twitter" class="hidden">twitter</label></a>
@@ -534,7 +537,8 @@
 
                 <form class="subscribe">
                     <h4>Subscribe to Comverse</h4>
-                    <input type="email" class="email" placeholder="EMAIL">
+                    <label for="email"><span class="hidden">e</span></label>
+                    <input type="email" class="email" placeholder="EMAIL" id="email">
                     <input type="submit" class="subscribe-submit" value="SIGN UP" text="SIGN UP">
                 </form>
 
