@@ -8,6 +8,9 @@ body {
 a {
     text-decoration: none;
 }
+.hidden{
+    display: none;
+}
 
 .c-header{
 	height: 75px;
