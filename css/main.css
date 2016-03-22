@@ -1563,6 +1563,24 @@ footer{
 
 }
 }
+
+@media all and (max-width:320px) {
+
+    .footer-menu {
+    font-size: 11px;
+}
+.more-btn {
+  
+    font-size: 13px;
+}
+.company {
+   
+    width: 30%;
+}
+.story .slide-content > p{
+    font-size: 13px;
+}
+}
 audio,
 canvas,
 iframe,
